@@ -1,0 +1,101 @@
+#Items2{
+    color: rgb(207, 51, 51);
+    text-transform: capitalize;
+    
+}
+div{
+    size: initial;
+    background-color: whitesmoke;
+    width: max-content;
+    height: max-content;
+}
+div{
+    color:white;
+}
+body{
+    background-color:rgb(255, 255, 255);
+  
+        
+    }
+
+
+h1{
+    color: aqua;
+
+}
+p{
+    color: aliceblue;
+}
+#Hi{
+    color:brown
+}
+#Fo{
+    color: black;
+
+}
+
+.Baz{
+    color: black;
+    background-color: whitesmoke;
+}
+
+#Items::grammar-error{
+    color: brown;
+}
+#Items{
+    color: lime;
+}
+/*naming specific links*/
+a[href="https://google.com"]{
+    color: aqua;
+}
+/* Buttons and hovering*/
+button:hover{
+    color: crimson;
+    background-color: black;
+    font-style: oblique;
+}
+/* responsive design*/
+@media (min-width: 200px) {
+   body > body{
+        background-color: rgb(146, 148, 150);
+        
+    }
+}
+@media (max-width: 599px) {
+     body{
+        background-color: rgb(146, 148, 150);
+        
+    }
+}
+/*flexbox*/
+#Container{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+#Container > div {
+    background-color: rgb(0, 0, 0);
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
+    width: 200px;
+}
+/* Grids*/
+#Grid{
+    background-color: rgb(156, 86, 86);
+    color: black;
+    display: grid;
+    padding: 20px;
+    grid-column-gap: 20px;
+    grid-row-gap: 50px ;
+grid-template-columns: 200px 200px auto;
+
+}
+.grid-item {
+    background-color: rgb(0, 0, 0);
+    font-size: 20px;
+    padding: 20px;
+}
+
+h4{ color:red;}
